@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.stats-card {
+  width: 250px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
