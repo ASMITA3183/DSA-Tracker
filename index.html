@@ -11,9 +11,28 @@
     <h1>DSA Progress Tracker</h1>
     <p>Track my problem-solving journey</p>
 
-    <div class="stats-card">
+    <div class="card stats-card">
       <h2>Total Problems</h2>
-      <p>0</p>
+      <p id="total-problems">0</p>
+      <button id="add-problem">Add Problem</button>
     </div>
+
+    <div class="difficulty-container">
+      <div class="card difficulty-card">
+        <h2>Easy</h2>
+        <p id="easy-problems">0</p>
+      </div>
+
+      <div class="card difficulty-card">
+        <h2>Medium</h2>
+        <p id="medium-problems">0</p>
+      </div>
+
+      <div class="card difficulty-card">
+        <h2>Hard</h2>
+        <p id="hard-problems">0</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
